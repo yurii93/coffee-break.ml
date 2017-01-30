@@ -1,0 +1,173 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f5f6f7;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  color: chocolate;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 850px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.admin-index-margin {
+
+	margin-bottom: 30px;
+}
+
+.nav > li > a {
+
+	font-weight: bold;
+}
+
+.table th, .table td {
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.table > tbody > tr > td {
+	
+	vertical-align: middle;
+}
+
+.table tr:hover {
+
+	background: #ecedef;
+
+}
+
+.info-box {
+	
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.admin-order-table {
+	
+	width: 100%;
+}
+
+.btn-group a {
+	
+	cursor: pointer;
+}
+
+.btn-group.open .dropdown-toggle {
+	
+	box-shadow: none;
+
+}
+.title-to-center, .title-to-center h2, .title-to-center h3{
+	text-align: center;
+}
+
+.name-in-order span {
+	font-size:1em;
+	color:#333;
+	font-weight:700;
+	display:block;
+	padding:0.5em 0;
+}
+
+.name-in-order  input[type="text"], .name-in-order  input[type="number"],
+.name-in-order  textarea, .name-in-order  input[type="file"]  {
+	width:100%;
+	padding:1em;	
+	border:1px solid #EEE;
+	-webkit-appearance:none;
+	outline:none;
+	color:#777;
+	transition:border-color 0.4s;
+	-webkit-transition:border-color 0.4s;
+	-moz-transition:border-color 0.4s;
+	-o-transition:border-color 0.4s;
+	-ms-transition:border-color 0.4s;
+	background:#f9f9f9;
+}
+
+.submit-btn {
+	
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.add-product {
+	
+	margin: 10px 0;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.add-product a {
+	text-decoration: none;
+}
+
+.admin-shop-btn {
+	position: fixed;
+	top: 50px;
+	right: 5px;
+	border-radius: 50%;
+	border: none;
+}
+.admin-close-btn {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	border-radius: 50%;
+	border: none;
+}
